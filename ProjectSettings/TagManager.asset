@@ -8,6 +8,7 @@ TagManager:
   - Wall
   - Enemy
   - Unwalkable
+  - MusicPlayer
   layers:
   - Default
   - TransparentFX
@@ -42,6 +43,12 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Background
+    uniqueID: 3629905447
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Foreground
+    uniqueID: 2920468099
     locked: 0

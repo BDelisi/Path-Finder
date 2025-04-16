@@ -8,6 +8,7 @@ public class Player : MonoBehaviour
     public GameManager gameManager;
     public GameObject wallChecker;
     public Vector2 lastPos;
+    public GameObject deathParticles;
 
     // Start is called before the first frame update
     void Start()
@@ -69,5 +70,12 @@ public class Player : MonoBehaviour
             Destroy(test);
             return false;
         }
+    }
+
+    public void Death()
+    {
+        deathParticles.SetActive(true);
+        GetComponent<SpriteRenderer>().color = Color.red;
+        GetComponent<AudioSource>().Play();
     }
 }

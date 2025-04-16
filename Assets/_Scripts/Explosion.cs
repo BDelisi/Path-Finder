@@ -47,5 +47,6 @@ public class Explosion : MonoBehaviour
         transform.localScale = endSize / 2;
         playingAnimation = true;
         gameObject.GetComponent<SpriteRenderer>().enabled = true;
+        GameObject.FindGameObjectWithTag("GameManager").GetComponent<AudioSource>().Play();
     }
 }

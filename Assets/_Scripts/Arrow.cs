@@ -47,5 +47,6 @@ public class Arrow : MonoBehaviour
         remainingLifeSpan = lifespan;
         playingAnimation = true;
         spriteRenderer.enabled = true;
+        GetComponent<AudioSource>().Play();
     }
 }

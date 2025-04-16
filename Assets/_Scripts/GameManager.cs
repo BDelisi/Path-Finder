@@ -60,7 +60,8 @@ public class GameManager : MonoBehaviour
 
     public void GameOver()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        Invoke("RestartLv", .25f);
+        playerScript.Death();
     }
 
     public void NextLv()
@@ -71,5 +72,10 @@ public class GameManager : MonoBehaviour
     public void CreateWarning(Vector2 pos)
     {
         warnings.Add(Instantiate(warning, pos, Quaternion.identity));
+    }
+
+    public void RestartLv()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }
