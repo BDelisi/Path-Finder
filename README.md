@@ -10,56 +10,56 @@
 ---
 
 # Required ReadMe Info for ALL MCS1653 Projects
-* **Project**   - 
-* **Your Name** - 
-* **Date**      - 
+* **Path To Malice**   - 
+* **Brycen Delisi** - 
+* **4/16/25**      - 
 
 <br>
 
 1. **What are the controls to your game? How do we play?**
-
+Arrow keys or WASD to move. Esc to pause
 
 
 <br>
 
 2. **What creative additions did you make? How can we find them?**
-
+Creative additions I have are the level design and the mechanics of the game
 
 
 <br>
 
 3. **Any assets used that you didn't create yourself?** <br> (art, music, etc. Just tell us where you got it, link it here)
-
+enemies/tilemap https://opengameart.org/content/dawnlike-16x16-universal-rogue-like-tileset-v181
 
 
 <br>
 
 4. **Did you receive help from anyone outside this class?** <br> (list their names and what they helped with)
-
+Nope. I did this all myself
 
 
 <br>
 
 5. **Did you get help from any AI Code Assistants?** <br> (Tell us which .cs file to look in for the citation and describe what you learned)
-
+No
 
 
 <br>
 
 6. **Did you get help from any online websites, videos, or tutorials?** <br> (link them here)
-
+I did not follow any tutorials. The only help I got was from browsing unity forums
 
 
 <br>
 
 7. **What trouble did you have with this project?**
-
+I did not run into much trouble making this project.
 
 
 <br>
 
 8. **Is there anything else we should know?**
-
+Not really
 
 
 
